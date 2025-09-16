@@ -1,0 +1,41 @@
+body {
+  font-family: "Orbitron", sans-serif;
+  background-color: #06090e;
+  color: #c9d1d9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.main-content {
+  position: relative;
+  z-index: 1;
+  padding: 50px;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* ... include all other styles here (h1, h2, button, card styles, etc.) ... */
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  height: 10px;
+  margin-top: 1rem;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #58a6ff;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
