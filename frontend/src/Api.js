@@ -3,7 +3,7 @@ export async function detectDeepfake(file) {
   formData.append("file", file);
 
   try {
-    const response = await fetch("https://deepfake-detection-7dym.onrender.com/predict", {
+    const response = await fetch("https://deepfake-detection-1-bzhv.onrender.com/predict", {
       method: "POST",
       body: formData,
     });
